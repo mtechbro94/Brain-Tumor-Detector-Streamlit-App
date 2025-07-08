@@ -44,8 +44,6 @@ A user-friendly web app built with **Streamlit** that uses a deep learning model
 ## 🛠️ How to Run Locally
 
 ### 1. Clone the Repo
-
-```bash
 git clone https://github.com/mtechbro94/Brain-Tumor-Detector-Streamlit-App.git
 cd Brain-Tumor-Detector-Streamlit-App
 2. Install Dependencies
