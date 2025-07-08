@@ -1,12 +1,13 @@
 # 🧠 Brain Tumor Detector - Streamlit App
 
 A user-friendly web app built with **Streamlit** that uses a deep learning model to classify brain MRI scans into four categories:
+
 - **Glioma**
 - **Meningioma**
 - **Pituitary**
 - **No Tumor**
 
-> 🚀 Live Demo: [Click to Open the App](https://your-app-url.streamlit.app)  
+> 🚀 Live Demo: [Click to Open the App](https://huggingface.co/spaces/miraaqib704/neuro-scan-ai)  
 > 📦 Model is auto-downloaded from Google Drive on first launch.
 
 ---
@@ -31,42 +32,50 @@ A user-friendly web app built with **Streamlit** that uses a deep learning model
 
 ## 🚀 Technologies Used
 
-| Technology     | Purpose                        |
-|----------------|-------------------------------|
-| Streamlit      | Web application interface     |
-| TensorFlow     | Deep learning model            |
-| PIL & NumPy    | Image preprocessing            |
-| Plotly         | Interactive visualizations     |
-| gdown          | Downloads model from GDrive    |
+| Technology  | Purpose                     |
+| ----------- | --------------------------- |
+| Streamlit   | Web application interface   |
+| TensorFlow  | Deep learning model         |
+| PIL & NumPy | Image preprocessing         |
+| Plotly      | Interactive visualizations  |
+| gdown       | Downloads model from GDrive |
 
 ---
 
 ## 🛠️ How to Run Locally
 
 ### 1. Clone the Repo
+
 git clone https://github.com/mtechbro94/Brain-Tumor-Detector-Streamlit-App.git
-cd Brain-Tumor-Detector-Streamlit-App
-2. Install Dependencies
+cd Brain-Tumor-Detector-Streamlit-App 2. Install Dependencies
+
 - pip install -r requirements.txt
+
 3. Run the App
+
 - streamlit run app.py
 - The model will be automatically downloaded from Google Drive the first time.
 
 # 📁 Project Structure
-├── app.py               # Streamlit app
-├── requirements.txt     # Python dependencies
+
+├── app.py # Streamlit app
+├── requirements.txt # Python dependencies
 ├── .gitignore
 └── models/
-     └── model.h5        # Downloaded at runtime via gdown
+└── model.h5 # Downloaded at runtime via gdown
+
 # 📦 Model Hosting (Google Drive)
+
 - The model is stored on Google Drive and downloaded using gdown.
-🔗 Model Link: Google Drive
+  🔗 Model Link: Google Drive
 
 # 📌 Notes
+
 - This app is for educational and research purposes only.
 - MRI classification is done using a pre-trained model, and not suitable for real medical diagnostics.
 
 # 🙋‍♂️ Author
+
 Aaqib Rashid Mir
 🔗 LinkedIn
 🔗 GitHub
